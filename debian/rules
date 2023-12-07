@@ -1,4 +1,6 @@
 #!/usr/bin/make -f
 
+export GODEBUG := x509sha1=1
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang

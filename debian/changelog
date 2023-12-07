@@ -1,5 +1,39 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-fullsailor-pkcs7 (0.0~git20210826.33d0574-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Add GODEBUG=x509sha1=1 to workaround for testing with go1.18
+    (Closes: #1008394)
+  * Add Multi-Arch hint
+  * Update package description
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Mon, 04 Apr 2022 15:23:26 +0800
+
+golang-github-fullsailor-pkcs7 (0.0~git20210826.33d0574-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+  [ Shengjing Zhu ]
+  * Switch upstream to mozilla's fork
+  * New upstream snapshot.
+    + Fix tests with Go1.17 (Closes: #997568)
+  * Add symlinks for go.mozilla.org/pkcs7
+  * Update Section to golang
+  * Update Standards-Version to 4.6.0 (no changes)
+  * Bump debhelper-compat to 13
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 24 Oct 2021 17:32:11 +0800
+
+golang-github-fullsailor-pkcs7 (0.0~git20190404.d7302db-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 21 Apr 2020 13:58:18 -0400
+
+golang-github-fullsailor-pkcs7 (0.0~git20190404.d7302db-1) experimental; urgency=medium
+
+  * Initial release (Closes: #958306)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 20 Apr 2020 08:03:39 -0400

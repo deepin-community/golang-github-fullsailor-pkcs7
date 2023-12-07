@@ -1,0 +1,6 @@
+Rules:
+  rules:
+    -
+      Glob: debian/*
+      License: MIT
+      Copyright: Reinhard Tartler <siretart@tauware.de>
